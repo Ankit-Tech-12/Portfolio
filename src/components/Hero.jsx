@@ -41,7 +41,7 @@ const Hero = () => {
 
         {/* Resume Button */}
         <a
-          href="../public/Ankit.pdf"
+          href="/Ankit.pdf"
           target="_blank"
           rel="noopener noreferrer"
           className="px-6 py-3 border border-white/20 rounded-2xl text-sm sm:text-base 
