@@ -51,7 +51,7 @@ const About = () => {
 
           {/* Floating Image */}
           <motion.img
-            src="../public/Profile.jpeg"
+            src="/Profile.jpeg"
             alt="Profile"
             animate={{ y: [0, -15, 0] }}
             loading="lazy"
