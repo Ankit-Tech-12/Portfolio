@@ -86,12 +86,14 @@ const Projects = () => {
                 <div className="flex gap-4">
                   <a
                     href={project.github}
+                    target="_blank"
                     className="text-sm px-4 py-2 border border-white/20 rounded-lg hover:bg-white/10 transition"
                   >
                     GitHub
                   </a>
                   <a
                     href={project.live}
+                    target="_blank"
                     className="text-sm px-4 py-2 bg-cyan-500 rounded-lg hover:bg-cyan-400 transition text-black"
                   >
                     Live Demo
