@@ -7,7 +7,7 @@ const projects = [
       "A Redux Toolkit powered expense tracker with category filtering and real-time calculations.",
     tech: "React • Redux Toolkit • Tailwind",
     github: "https://github.com/Ankit-Tech-12/Smart-Expense-Analyzer.git",
-    live: "#",
+    live: "https://smart-expense-analyzer-xi.vercel.app",
   },
   {
   title: "Employment Management System",
