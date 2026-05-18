@@ -2,7 +2,7 @@ import { motion, useInView } from "framer-motion";
 import { useEffect, useState, useRef } from "react";
 
 const About = () => {
-  const text = "Frontend Developer & UI Enthusiast";
+  const text = "MERN Stack Developer & React Specialist";
   const [displayedText, setDisplayedText] = useState("");
   const sectionRef = useRef(null);
 
@@ -78,31 +78,40 @@ const About = () => {
           </p>
 
           <p className="text-gray-400 leading-relaxed mb-8">
-            I build modern, scalable and responsive web applications using
-            React and Tailwind. I focus on performance, clean architecture,
-            and smooth UI animations that enhance user experience.
+            I build scalable and responsive full-stack web applications
+            using MongoDB, Express.js, React.js, and Node.js. Passionate
+            about creating clean user interfaces, REST API integration,
+            authentication systems, and modern web experiences with
+            optimized performance and maintainable architecture.
           </p>
 
           {/* Glassmorphism Cards */}
-          <div className="grid grid-cols-2 gap-6">
-            <div className="bg-white/5 backdrop-blur-lg border border-white/10 p-6 rounded-2xl 
-                            transition duration-300 
-                            hover:scale-105 
-                            hover:border-cyan-400/40 
-                            hover:shadow-[0_0_20px_rgba(34,211,238,0.15)]">
-              <p className="text-cyan-400 font-bold text-xl">3+</p>
-              <p className="text-gray-400 text-sm">Projects Built</p>
+           <div className="grid grid-cols-2 gap-6">
+            
+            <div
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-6 rounded-2xl 
+                         transition duration-300 
+                         hover:scale-105 
+                         hover:border-cyan-400/40 
+                         hover:shadow-[0_0_20px_rgba(34,211,238,0.15)]"
+            >
+              <p className="text-cyan-400 font-bold text-xl">MERN</p>
+              <p className="text-gray-400 text-sm">Stack Projects</p>
             </div>
 
-            <div className="bg-white/5 backdrop-blur-lg border border-white/10 p-6 rounded-2xl 
-                            transition duration-300 
-                            hover:scale-105 
-                            hover:border-cyan-400/40 
-                            hover:shadow-[0_0_20px_rgba(168,85,247,0.15)]">
-              <p className="text-cyan-400 font-bold text-xl">React</p>
-              <p className="text-gray-400 text-sm">Primary Stack</p>
+            <div
+              className="bg-white/5 backdrop-blur-lg border border-white/10 p-6 rounded-2xl 
+                         transition duration-300 
+                         hover:scale-105 
+                         hover:border-cyan-400/40 
+                         hover:shadow-[0_0_20px_rgba(168,85,247,0.15)]"
+            >
+              <p className="text-cyan-400 font-bold text-xl">REST API</p>
+              <p className="text-gray-400 text-sm">Integration</p>
             </div>
+
           </div>
+
 
         </motion.div>
       </div>
