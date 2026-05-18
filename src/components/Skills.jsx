@@ -7,6 +7,9 @@ const skills = [
   { name: "JavaScript", level: 80 },
   { name: "React", level: 85 },
   { name: "Redux Toolkit", level: 75 },
+   { name: "Node.js", level: 75 },
+  { name: "Express.js", level: 72 },
+  { name: "MongoDB", level: 70 },
   { name: "Git & GitHub", level: 70 },
 ];
 
@@ -42,7 +45,7 @@ const Skills = () => {
         <div className="space-y-8">
           {skills.map((skill, index) => (
             <div key={skill.name}>
-              
+
               {/* Skill Label */}
               <div className="flex justify-between mb-2">
                 <span className="text-gray-300 font-medium">
